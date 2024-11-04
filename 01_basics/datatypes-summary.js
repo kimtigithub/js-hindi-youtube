@@ -41,3 +41,31 @@ const myFunction = function(){
     console.log("hello world");
 }
 
+//In computer science, 
+//program optimization, 
+//code optimization, 
+//or software optimization is the process of modifying a software system to make some aspect of it work more efficiently or use fewer resources.
+//optimistic- hopeful & confident about the future
+
+//+++++++++++++++++++
+//Stack memory used in  (primitive type) , means memory te copy pbo
+// heap memory used in (non-primitive), means reference pabo original value er
+
+let myYoutubename = "kanvisarkimtidotcom"
+
+let anothername = myYoutubename
+anothername = "kimmmm"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@bl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Kimimoi@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
