@@ -20,3 +20,4 @@ if(true){
 console.log(a);//global scope //output 300
 
 //for loop er khetrew same thing// but console scope and code scope different..
+//jotobar curly braces ashbe totobar scope ashbe
